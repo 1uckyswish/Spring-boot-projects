@@ -15,22 +15,4 @@ public class Greet {
     record GreetResponse(String message, List<String> fav, Person person) { }
 
     record Person(String name, int age, double cash) { }
-//    class GreetResponse {
-//        private String message;
-//
-//        public GreetResponse(String message) {
-//            this.message = message;
-//        }
-//
-//        public String getGreet() {
-//            return message;
-//        }
-//
-//        @Override
-//        public String toString() {
-//            return "GreetResponse{" +
-//                    "message='" + message + '\'' +
-//                    '}';
-//        }
-//    }
 }
